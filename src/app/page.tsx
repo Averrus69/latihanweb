@@ -1,8 +1,9 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full h-1/6 vh flex gap-[10px] justify-center items-center pt-[40px] pb-[40px]">
       <div className="flex justify-center items-center" id="bgAccount">
-        <img
+        <Image
           className="rounded-full"
           width={600}
           height={400}
